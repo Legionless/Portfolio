@@ -1,0 +1,10 @@
+TF	Any funds remaining in your current budget will carry over to the next year.	False
+TF	The firm needs to be more aggressive in seeking out more minorities and female employees.	True
+TF	The cost associated with promoting from within are much lower than those associated with hiring from outside.	True
+MC	The cost to lay off an employee is what percent of the hiring cost for that level?	25%	Incorrect	33%	Incorrect	50%	Correct	65%	Incorrect
+TF	Productivity can be impacted by a drop in employee morale.	True
+TF	The firm has a formal grievance policy.	False
+TF	At the beginning of the simulation, the employees are covered by a fairly comprehensive health coverage plan.	False
+MC	What is the employee turnover rate at the beginning of the simulation?	6.2%	Incorrect	8.9%	Incorrect	9.8%	Correct	12.9%	Incorrect
+TF	Training those who are promoted will increase the probability of employee success and reduce turnover.	True
+TF	You are allowed to "dip" into next year's budget.	False
