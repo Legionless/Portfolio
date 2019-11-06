@@ -1,73 +1,69 @@
-body{
+/* Global Stlyes */
+html, body {
+    height: 100%;
     font-family: Roboto, sans-serif;
     background-image: url("jumbotron-image.jpg");
     background-size: cover;
+    overflow: hidden;
     color: white;
 }
+a {
+    color: yellow;
+}
+a:link {
+    text-decoration: none;
+}
 
+a:visited {
+    text-decoration: none;
+}
+
+/* Header Syles */
 header {
-    padding: 20px 0;
-    border: solid black 2px;
-}
-
-header a{
-    color: yellow;
-}
-header .row, footer .row{
-    display:flex;
-    align-items: center;
-}
-
-h1 {
-    font-weight: 700;
-    margin: 0;
-}
-
-nav {
+    height: 10%;
     display: flex;
-    justify-content: center;
-    font-size: 30px;
-    border: solid red 2px;
+    border: solid red 1px;
 }
 
-.jumbotron a {
-    padding: 0 20px;
-    margin: 0;
-    color: yellow;
+header .row {
+    justify-content: flex-start;
+    border: solid white 1px;
 }
+
+/* Jumbotron Styles */
 
 .jumbotron {
-    color: yellow;
-    height: 400px;
-    background-color: transparent; 
-    border: solid black 2px;
+    background-color: black;
+    height: 80%;
+    border: solid coral 2px;
 }
 
-.jumbotron .container {
-    align-items: center;
-}
-
-.jumbotron h2 {
-    font-size: 60px;
-    font-weight: 700;
-    margin: 0;
-    color: #fff;
-}
-
-footer {
-    font-size: 12px;
-    padding: 20px 0;
-    border: solid red 2px;
-}
-
-footer .col-sm-4 {
+#job, #projects, #contact {
     display: flex;
+    justify-content: center;
 }
 
-.container {
-    border: solid yellow 2px;
+#job {
+    height: 10%;
+    padding: 0;
+    margin: 0;
 }
 
-.row {
-    border: solid pink 2px;
+#projects {
+    height: 10%;
+    padding: 0;
+    margin: 0;
+    border: solid pink 1px;
+}
+
+#contact {
+    height: 80%;
+    width: 100%;
+    margin-top: 5%;
+    justify-content: space-between;
+    border: solid green 2px;
+}
+/* Footer Styles */
+footer {
+    height: 10%;
 }
